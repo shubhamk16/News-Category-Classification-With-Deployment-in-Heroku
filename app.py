@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 # load the model from disk
-filename = 'NLP_model.pkl'
+filename = 'Nlp_model.pkl'
 clf = pickle.load(open(filename, 'rb'))
 cv=pickle.load(open('News_Vectorizer.pkl','rb'))
 app = Flask(__name__)

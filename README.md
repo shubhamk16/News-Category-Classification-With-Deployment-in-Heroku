@@ -2,6 +2,8 @@
 
 This repository aims to deploy a News category classification model with heroku.
 
+
+
 The News Sections are labelled as follows : 
 <p> 1) Politics
 <p> 2) Technology
